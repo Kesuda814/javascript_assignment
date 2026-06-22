@@ -8,7 +8,7 @@
     <h3>Check the Browser Console to See the Filtered Array</h3>
 
     <script>
-        // 1. Copy the provided array of people
+   
         const people = [
             "Alice Anderson",
             "Aaron Adams",
@@ -32,16 +32,15 @@
             "Julia James"
         ];
 
-        // 2. Choose the letter you want to filter by (e.g., "B")
+    
         const targetLetter = "B";
 
-        // 3. Use the filter() method to pick out names starting with that letter
+
         const result = people.filter((person) => {
-            // Check if the first character (index 0) matches our target letter
+
             return person.charAt(0) === targetLetter;
         });
 
-        // 4. Display the filtered array in the browser console
         console.log(`Names starting with "${targetLetter}":`, result);
     </script>
 
